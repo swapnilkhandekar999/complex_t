@@ -21,7 +21,7 @@ int main(){
   res[3]=division(num1,num2);
   
   for(int i=0;i<4;i++){
-  printf("%f%f",res[i].real,res[i].imaginary);
+  printf("%fi%f\n",res[i].real,res[i].imaginary);
   }
 }
 
