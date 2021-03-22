@@ -44,4 +44,9 @@ complex_t multiplication(complex_t,complex_t){
   result.imaginary=(num1.real*num2.imaginary)+(num2.real*num1.imaginary);
   return result;
 }
-complex_t division(complex_t,complex_t);
+complex_t division(complex_t,complex_t){
+  complex_t result;
+  result.real=((num1.real*num2.real)+(num1.imaginary*num2.imaginary))/(num2.real*num2.real+num2.imaginary*num2.imaginary);
+  result.imaginary=((num2.real*num1.imaginary)-(num1.real*num2.imaginary))/(num2.real*num2.real+num2.imaginary*num2.imaginary);
+  return result;
+}
