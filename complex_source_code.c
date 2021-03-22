@@ -1,5 +1,9 @@
 #include<stdio.h>
-#include "complex.h"
+typedef struct complex_t {
+float real;
+float imaginary;
+} complex_t;
+
 complex_t sum(complex_t,complex_t);
 complex_t difference(complex_t,complex_t);
 complex_t multiplication(complex_t,complex_t);
