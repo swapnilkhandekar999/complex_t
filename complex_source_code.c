@@ -4,7 +4,7 @@ float real;
 float imaginary;
 } complex_t;
 
-//swapnil;
+//swapnil k;
 complex_t sum(complex_t,complex_t);
 complex_t difference(complex_t,complex_t);
 complex_t multiplication(complex_t,complex_t);
