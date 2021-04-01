@@ -8,7 +8,7 @@ int main(){
   num2.real=2;
   num2.imaginary=3;
   
-  printf("Complex Calculator");
+  printf("************Complex Calculator***********");
   
   res[0]=sum(num1,num2);
   res[1]=difference(num1,num2);
