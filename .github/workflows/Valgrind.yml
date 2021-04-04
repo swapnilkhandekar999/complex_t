@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: apt install dependency
@@ -17,4 +17,4 @@ jobs:
     - name: make test
       run: |
         make test -C complex_t
-        valgrind ./complex_t/Complex_Calculator.exe
+        valgrind ./complex_t/Complex_Calculator
