@@ -17,4 +17,4 @@ jobs:
     - name: make test
       run: |
         make test -C complex_t
-        valgrind ./complex_t/Complex_Calculator
+        valgrind ./Complex_Calculator
