@@ -4,4 +4,6 @@
 
 [![cppcheck-action](https://github.com/swapnilkhandekar999/complex_t/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/swapnilkhandekar999/complex_t/actions/workflows/cppcheck.yml)
 
+[![C/C++ CI - Build Status](https://github.com/swapnilkhandekar999/complex_t/actions/workflows/CI-build%20status.yml/badge.svg)](https://github.com/swapnilkhandekar999/complex_t/actions/workflows/CI-build%20status.yml)
+
 Write functions to compute sum, difference, product &amp; division of two complex variables.
