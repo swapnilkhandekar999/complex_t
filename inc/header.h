@@ -17,7 +17,7 @@ typedef enum error
 {
     ERROR_DIV_BY_ZERO=-2,
     ERROR_NULL_PTR=-1,
-    SUCCESS=0
+    SUCCESS=0 
 }error;
 /**
  * @brief TO ADD TWO COMPLEX NUMBERS
