@@ -2,7 +2,7 @@
 #include "header.h"
 int main()
 {
-    static complex a={0,0};
+    static complex a={1,0};
     static complex b={0,0};
     static complex c={0,0};
     int choice;
